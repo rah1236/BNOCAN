@@ -957,6 +957,259 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -4199,6 +4452,12 @@
 		(uuid "9410c97c-efa1-448d-bc9c-b3d6632c29b9")
 	)
 	(junction
+		(at 76.2 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986a433c-307d-497c-92df-490a73d3822d")
+	)
+	(junction
 		(at 81.28 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4281,6 +4540,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e38f75d7-64a5-4f32-acd9-a6700df094b4")
+	)
+	(junction
+		(at 66.04 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5abbeca-1fa6-4028-ab66-ff1d02910e84")
 	)
 	(junction
 		(at 254 64.77)
@@ -4816,6 +5081,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 153.67) (xy 86.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e480474-a867-43b4-879c-670b1e435b02")
+	)
+	(wire
+		(pts
 			(xy 123.19 137.16) (xy 124.46 137.16)
 		)
 		(stroke
@@ -5246,7 +5521,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 160.02) (xy 66.04 147.32)
+			(xy 66.04 153.67) (xy 66.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74905fa9-5835-43b6-b5be-6847c105715d")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 66.04 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5373,6 +5658,16 @@
 			(type default)
 		)
 		(uuid "887e9b62-b53f-4ad4-a79f-bf094c98e12e")
+	)
+	(wire
+		(pts
+			(xy 66.04 153.67) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a91ab6-cdf8-44e4-9150-6d303cd33bef")
 	)
 	(wire
 		(pts
@@ -9122,7 +9417,7 @@
 		)
 		(uuid "a097f0ca-c9dd-41d2-b8a4-2996678cf4e2")
 	)
-	(text "TODO/CHANGELOG\n[DONE]-FIX BOOT SET HIGH (SHOULD BE LOW) \n[DONE]-FIX BNO085 RST \n[DONE]-FIX BUCK CONVERTER FEEDBACK CIRCUIT \n[DONE]-ADD ~{IMUINTR} to MCU \n[DONE]-REMOVE LED TRANSISTORS\n-REVERSE POLARITY PROTECTION\n-ADD STM32 CRYSTAL TO INCREASE CANBUS STABILITY\n\n"
+	(text "TODO/CHANGELOG\n[DONE]-FIX BOOT SET HIGH (SHOULD BE LOW) \n[DONE]-FIX BNO085 RST \n[DONE]-FIX BUCK CONVERTER FEEDBACK CIRCUIT \n[DONE]-ADD ~{IMUINTR} to MCU \n[DONE]-REMOVE LED TRANSISTORS\n[DONE]-Fixed STMCRYSTAL\n-REVERSE POLARITY PROTECTION\n-ADD STM32 CRYSTAL TO INCREASE CANBUS STABILITY\n\n"
 		(exclude_from_sim no)
 		(at 50.8 195.58 0)
 		(effects
@@ -10734,7 +11029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -11740,7 +12035,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "8pF"
 			(at 73.6536 143.51 90)
 			(effects
 				(font
@@ -11933,18 +12228,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7de17bcb-b2a1-44a6-972f-446c662af546")
 		(property "Reference" "C11"
-			(at 73.6537 166.37 90)
+			(at 73.66 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22pF"
-			(at 73.6537 163.83 90)
+		(property "Value" "8pF"
+			(at 73.66 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,75 +12555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 81.28 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84439b9a-22f9-4465-bb4c-4fc7b9f88844")
-		(property "Reference" "Y2"
-			(at 76.2 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STMCRYSTAL"
-			(at 67.31 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 81.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3b8a622-527d-4641-8065-ecf377f8ada6")
-		)
-		(pin "2"
-			(uuid "eecca298-011c-41f3-b412-304c1c48a586")
-		)
-		(instances
-			(project "BNOCAN"
-				(path "/ac9e7a91-5467-4281-9ed7-cf1345349504"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 160.02 124.46 0)
 		(unit 1)
@@ -12458,6 +12683,79 @@
 			(project "BNOCAN"
 				(path "/ac9e7a91-5467-4281-9ed7-cf1345349504"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 81.28 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aa371b9-b400-4d23-8b23-b4d73b5df5c5")
+		(property "Reference" "Y2"
+			(at 83.566 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STMCRYSTAL"
+			(at 83.566 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 81.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c556740a-f694-4416-b732-489b376f1201")
+		)
+		(pin "2"
+			(uuid "793e9e72-f80a-40c2-b5c1-3771ef8415fb")
+		)
+		(pin "1"
+			(uuid "738e6b20-fe3c-4eab-a561-c4dae8b47c36")
+		)
+		(pin "4"
+			(uuid "375624d9-1720-4efa-abe4-b506a02fadc4")
+		)
+		(instances
+			(project "BNOCAN"
+				(path "/ac9e7a91-5467-4281-9ed7-cf1345349504"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
